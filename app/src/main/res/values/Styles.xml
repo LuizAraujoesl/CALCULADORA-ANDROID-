@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    //Style personalizado
+    <style name="Container_Button">
+        // add layout largura
+      <item name="android:layout_width">0dp</item>
+        // add layout altura
+        <item name="android:layout_height">match_parent</item>
+        // add layout espessura
+        <item name="android:layout_weight">1</item>
+        // add tamanho fonte
+        <item name="android:textSize">28sp</item>
+        // add localização  da fonte
+        <item name="android:gravity">center</item>
+        // espessura fonte
+        <item name="android:textStyle">bold</item>
+        // margindo layout
+        <item name="android:layout_margin">0.5dp</item>
+
+    </style>
+
+    <style name="Operators_Button" parent="Container_Button">
+        <item name="android:background" tools:targetApi="lollipop">@color/orange</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Numbers_Button" parent="Container_Button">
+        <item name="android:background" tools:targetApi="lollipop">@drawable/botao_numero_clicado</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+
+    
+</resources>
